@@ -721,7 +721,7 @@ export default function LandingPage() {
               {/* Central Tutor Illustration */}
               <div className="w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] z-10 relative rounded-full overflow-hidden border-4 border-white shadow-xl bg-white animate-float">
                 <img
-                  src="/tutor_illustration.jpg"
+                  src={`${import.meta.env.BASE_URL}tutor_illustration.jpg`}
                   alt="Иллюстрация процесса записи репетитора"
                   className="w-full h-full object-cover"
                 />
@@ -993,7 +993,7 @@ export default function LandingPage() {
             <div className="rounded-[2rem] bg-white p-2 border border-cream-300 shadow-sm hover:border-blue-200 transition-organic flex flex-col">
               <div className="rounded-[calc(2rem-0.5rem)] overflow-hidden aspect-[4/3] relative">
                 <img
-                  src="/tutor_workspace.jpg"
+                  src={`${import.meta.env.BASE_URL}tutor_workspace.jpg`}
                   alt="Рабочий стол репетитора"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -1025,7 +1025,7 @@ export default function LandingPage() {
             <div className="rounded-[2rem] bg-white p-2 border border-cream-300 shadow-sm hover:border-blue-200 transition-organic flex flex-col">
               <div className="rounded-[calc(2rem-0.5rem)] overflow-hidden aspect-[4/3] relative">
                 <img
-                  src="/calendar_schedule.jpg"
+                  src={`${import.meta.env.BASE_URL}calendar_schedule.jpg`}
                   alt="Интеграция с календарем"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
@@ -1057,7 +1057,7 @@ export default function LandingPage() {
             <div className="rounded-[2rem] bg-white p-2 border border-cream-300 shadow-sm hover:border-blue-200 transition-organic flex flex-col">
               <div className="rounded-[calc(2rem-0.5rem)] overflow-hidden aspect-[4/3] relative">
                 <img
-                  src="/study_notes.jpg"
+                  src={`${import.meta.env.BASE_URL}study_notes.jpg`}
                   alt="Материалы для обучения"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                 />
